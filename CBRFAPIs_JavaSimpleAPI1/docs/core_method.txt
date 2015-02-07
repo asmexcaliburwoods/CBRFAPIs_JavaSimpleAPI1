@@ -1,0 +1,13 @@
+http://www.cbr.ru/scripts/XML_daily.asp?date_req=07/02/2015
+
+date_req= Date of query (dd/mm/yyyy)
+
+<Valute ID="R01235">
+<NumCode>840</NumCode>
+<CharCode>USD</CharCode>
+<Nominal>1</Nominal>
+<Name>Доллар США</Name>
+<Value>66,0432</Value>
+</Valute>
+
+For more info: http://www.cbr.ru/scripts/Root.asp?PrtId=SXML
