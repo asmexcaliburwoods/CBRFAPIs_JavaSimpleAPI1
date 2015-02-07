@@ -17,6 +17,20 @@ import com.github.egphilippov.financesapis.cbrfapis.simple1.question1.impl1.fs.i
 import com.github.egphilippov.financesapis.cbrfapis.simple1.question1.impl1.serformat1.Transaction;
 import com.github.egphilippov.financesapis.cbrfapis.simple1.question1.impl1.serformat1.TransactionDataFormat1;
 
+/*
+http://www.cbr.ru/scripts/XML_daily.asp?date_req=07/02/2015
+
+date_req= Date of query (dd/mm/yyyy)
+
+<Valute ID="R01235">
+<NumCode>840</NumCode>
+<CharCode>USD</CharCode>
+<Nominal>1</Nominal>
+<Name>Доллар США</Name>
+<Value>66,0432</Value>
+</Valute>
+ */
+
 public class QuestionImpl1 
 		implements CBRFHowManyRoublesPerUSDTodayQuestion {
 	private static final long MILLISECONDS_PER_PERIOD_OF_24_HOURS = 24L*60*60*1000;
